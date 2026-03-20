@@ -1,0 +1,9 @@
+spring.application.name=boutique-api
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:mysql://localhost:3306/nombreDB
+spring.datasource.username = usuario
+spring.datasource.password = passwordUsuario
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto = verify
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
