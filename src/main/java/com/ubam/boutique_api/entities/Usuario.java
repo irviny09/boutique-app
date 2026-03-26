@@ -34,11 +34,8 @@ public class Usuario {
     @Column(name = "Usuario_Nombre", length = 45)
     private String nombre;
 
-    @Column(name = "Usuario_ApellidoPat", length = 45)
-    private String apellidoPat;
-
-    @Column(name = "Usuario_ApellidoMat", length = 45)
-    private String apellidoMat;
+    @Column(name = "Usuario_Apellidos", length = 100)
+    private String apellidos;
 
     @Column(name = "Usuario_Telefono", length = 45)
     private String telefono;
