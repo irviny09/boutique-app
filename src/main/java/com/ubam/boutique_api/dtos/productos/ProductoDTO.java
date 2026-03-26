@@ -1,6 +1,10 @@
 package com.ubam.boutique_api.dtos.productos;
 
 import java.math.BigDecimal;
+import java.util.List;
+
+import com.ubam.boutique_api.entities.ImagenProducto;
+import com.ubam.boutique_api.entities.VarianteProducto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,15 +12,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class ProductosDTO {
+public class ProductoDTO {
     Integer productoId;
     String nombre;
     String descripcion;
     BigDecimal precio;
-    String tipo;
     String marca;
-    String imagen;
-} 
+    List<VarianteProducto> variantes;
+    List<ImagenProducto> imagenes;
+}

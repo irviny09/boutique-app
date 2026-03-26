@@ -1,4 +1,4 @@
-package com.ubam.boutique_api.controllers.auth;
+package com.ubam.boutique_api.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

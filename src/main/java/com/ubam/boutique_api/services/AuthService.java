@@ -1,7 +1,5 @@
 package com.ubam.boutique_api.services;
 
-
-import org.springframework.boot.security.autoconfigure.SecurityProperties.User;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 
@@ -13,7 +11,6 @@ import com.ubam.boutique_api.dtos.auth.LoginDTO;
 import com.ubam.boutique_api.dtos.auth.RegisterDTO;
 import com.ubam.boutique_api.dtos.auth.TokenDTO;
 import com.ubam.boutique_api.entities.Credencial;
-import com.ubam.boutique_api.entities.Rol;
 import com.ubam.boutique_api.entities.Usuario;
 import com.ubam.boutique_api.jwt.JwtService;
 import com.ubam.boutique_api.repositories.CredencialRepository;
